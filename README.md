@@ -60,6 +60,39 @@ The generated answers are **stored**, **reused**, and **qualified** for future u
 
 ---
 
+
+---
+
+### 🧭 Cognitive Routing – Comment ça fonctionne ?
+
+> 🇫🇷  
+> **Qto8** fonctionne par **relais cognitif multi-niveaux** :  
+> - Q2 : réponse rapide, simple, peu coûteuse  
+> - Q4 / Q6 : niveau intermédiaire (contexte, structure, reformulation)  
+> - Q8 : modèle complexe, utilisé uniquement si nécessaire  
+>  
+> À chaque question, le système évalue la complexité, active le bon niveau, et stocke la meilleure réponse.  
+>  
+> 🎯 Avantages : réduction des coûts, de la latence et de l’empreinte carbone.
+
+> 🇬🇧  
+> **Qto8** operates through **multi-level cognitive relays**:  
+> - Q2: fast, simple, low-cost response  
+> - Q4 / Q6: intermediate levels (context, structure, reformulation)  
+> - Q8: high-complexity model, used only when required  
+>  
+> For each prompt, the system evaluates its complexity, activates the appropriate level, and stores the best-known answer.  
+>  
+> 🎯 Benefits: reduced costs, latency, and carbon footprint.
+
+---
+
+### 🧪 Script de démonstration / Demo Script
+
+- [`qto8_multilevel_demo.py`](./qto8_multilevel_demo.py) → Démo interactive du système Q2 → Q8 avec niveaux Q4/Q6 intermédiaires et mémoire active.
+- Exemples intégrés : math, philosophie, etc.
+- 💾 Les réponses sont automatiquement stockées pour optimiser les requêtes futures.
+
 ## 🏷️ Tags
 
 `#GreenAIReady` `#Qto8` `#LLMOptimization` `#CognitiveCache` `#OpenSourceAI` `#EfficientAI` `#PromptEconomy`  
